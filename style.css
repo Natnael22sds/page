@@ -24,14 +24,14 @@ Code written by:
  }
 }
 
-/*@page {
+@page {
     size: landscape;
     margin: 0; 
-}*/
+}
 
 body {
     min-height: 100vh;
-    background: url(images/html_table.jpg) center / cover;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +144,7 @@ table, th, td {
 thead th {
     position: sticky;
     top: 0;
-    left: 0;
+    /* left: 0; */
     background-color: #d5d1defe;
     cursor: pointer;
     text-transform: capitalize;
